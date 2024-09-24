@@ -2,9 +2,19 @@
 <html>
 	<head>
 		<title>Portfolio - IHSAN A T - Full Stack Developer</title>
+		
+		<!-- Favicon -->
+		<link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+
+		<!-- Meta Tags -->
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+		<!-- Custom Styles -->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		
 	</head>
 	<style>
 		.button:hover{
@@ -18,6 +28,38 @@
 		.row.display-flex > [class*='col-'] {
 			display: flex;
 			flex-direction: column;
+		}
+		.services p,
+		.services h1,
+		.services h2,
+		.services h3,
+		.services h4,
+		.services h5,
+		.services h6,
+		.services span,
+		.services strong{
+			text-shadow: none;
+		}
+
+		.services h3, .services strong{
+			color: #f8f8f8;
+		}
+
+		.services p{
+			color: #e1e1e1;
+			margin-bottom: 5px;
+		}
+
+		.portfolio-works{
+			background: linear-gradient(95.32deg, #282828 .7%, #212021 98.35%);
+		}
+
+		.submit-btn{
+			background-color: #0000001c;
+
+		}
+		.submit-btn:hover{
+			opacity: .8;
 		}
 	</style>
 	<body class="is-preload">
@@ -115,14 +157,14 @@
 									Expertise in domain management, DNS records configurations, web server configurations etc.
 									I prioritize security by configuring SSL certificates (HTTPS) to encrypt data in transit and ensure
 									regular security updates and monitoring are crucial for a safe online presence. 
-									Also experienced in deployment both ios and Android apps into the stores respectively.
+									Also experienced in deployment both ios and Android apps into the stores.
 								</p>
 							</section>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
 							<section class="box style1">
 								<i class="fab fa-shopify" style="font-size: 75px; margin-bottom: 25px; color: black;"></i>
-								<h3>E-Commerce development using Shopify</h3>
+								<h3>E-Commerce app using Shopify</h3>
 								<p>
 									I leverage Shopify’s user-friendly platform to set up the online store. This includes
 									organizing products, adding images, descriptions, and pricing, grouping related products 
@@ -157,55 +199,121 @@
 				<div class="container">
 					<header>
 						<h2>Here’s some stuff I made recently.</h2>
-						<p>Proin odio consequat  sapien vestibulum consequat lorem dolore feugiat.</p>
+						<p> 
+							A passionate software developer with a knack for turning ideas into reality. 
+							My journey spans various facets of the digital landscape, and I thrive on 
+							solving complex problems
+						</p>
 					</header>
-					<div class="row">
+					<div class="row services">
 						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
-								<h3><a href="#">Magna feugiat</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
+							<article class="box style2 portfolio-works">
+								<h3><a href="https://ishout.io/">Marketing Platform <i class="fas fa-external-link-alt"></i></a></h3>
+								<hr style="margin: 10px 0;">
+								<p>
+									A platform where you can connect with your favorite celebrities. 
+									Includes multiple modules for flawless functionality and better user experience.
+								</p>
+								<span><strong>Python, Django, DRF, React, PostgreSQL, AWS</strong></span>
 							</article>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-								<h3><a href="#">Veroeros primis</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
+							<article class="box style2 portfolio-works">
+								<h3><a href="https://capitalschoolbahrain.com/">Business Website <i class="fas fa-external-link-alt"></i></a></h3>
+								<hr style="margin: 10px 0;">
+								<p>
+									Developed a dynamic website for reputed School in Bahrain. Also develops CRM, CMS, 
+									different modules for HR, Admissoin and other department
+								</p>
+								<span><strong>Django, HTML 5, CSS 3, JavaScript, JQuery, AWS</strong></span>
 							</article>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-								<h3><a href="#">Lorem ipsum</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
+							<article class="box style2 portfolio-works">
+								<h3><a href="https://play.google.com/store/apps/details?id=com.ishouttalent&hl=en_SG">Mobile App <i class="fas fa-external-link-alt"></i></a></h3>
+								<hr style="margin: 10px 0;">
+								<p>
+									Developed a user friendly mobile application in using React Native. 
+									Ensuring consistent user experiences across iOS and Android and implement API's.
+
+								</p>
+								<span><strong>React Native, React, Postman, Xcode, Android Studio</strong></span>
 							</article>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-								<h3><a href="#">Tempus dolore</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
+							<article class="box style2 portfolio-works">
+								<h3><a href="https://wizardengineering.co/wizwatch/">WizWatch <i class="fas fa-external-link-alt"></i></a></h3>
+								<hr style="margin: 10px 0;">
+								<p>
+									Monitor all your emergency notifications at using one App. 
+									Get Notification via WhatsApp | Telegram | iMessage | Email.
+									Also setup a Proxy email server to fetch incoming notifications from BMS Systems
+								</p>
+								<span><strong>Django, HTML 5, JavaScript, jQuery, SQlite, AppleScript</strong></span>
 							</article>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
-								<h3><a href="#">Feugiat aliquam</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
+							<article class="box style2 portfolio-works">
+								<h3><a href="https://shopbaderalsafar.com/">Online Fasion Store <i class="fas fa-external-link-alt"></i></a></h3>
+								<hr style="margin: 10px 0;">
+								<p>
+									<span style="font-style: italic; color: aqua;">( Specially made for a celebrity )</span>
+									Customizing the store’s look and feel using Shopify themes.
+									Organizing products, adding images, descriptions, grouping related products and more. 
+									Ensure about responsiveness, security and SEO optimization.
+								</p>
+								<span><strong>Shopify</strong></span>
 							</article>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
-								<h3><a href="#">Sed amet ornare</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
+							<article class="box style2 portfolio-works">
+								<h3><a href="https://doordropp.com/">E-Commerce Platform <i class="fas fa-external-link-alt"></i></a></h3>
+								<hr style="margin: 10px 0;">
+								<p>
+									Develops and maintains a responsive web application platform for handling customer orders from 
+									local business. Modules are implemented for business and delivery agents to manage incoming orders and delivery respectively. 
+								</p>
+								<span><strong>Django, HTML 5, JavaScript, jQuery, PostgreSQL</strong></span>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2 portfolio-works">
+								<h3><a href="https://mecosbh.com/">Business Website <i class="fas fa-external-link-alt"></i></a></h3>
+								<hr style="margin: 10px 0;">
+								<p>
+									Developed a dynamic website for reputed Business based in Bahrain. 
+									Also develops CRM, CMS, marketing modules 
+								</p>
+								<span><strong>Django, HTML 5, JavaScript, jQuery</strong></span>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2 portfolio-works">
+								<h3><a href="https://webstersolution.com/">Business Website <i class="fas fa-external-link-alt"></i></a></h3>
+								<hr style="margin: 10px 0;">
+								<p>
+									Developed a dynamic website for reputed Business based in Bahrain. 
+									Also develops CRM, CMS, marketing modules 
+								</p>
+								<span><strong>Django, HTML 5, JavaScript, JQuery</strong></span>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2 portfolio-works">
+								<h3><a href="https://alsafargroup.com/">Business Website <i class="fas fa-external-link-alt"></i></a></h3>
+								<hr style="margin: 10px 0;">
+								<p>
+									
+									Developed a static website for reputed Business based in Bahrain. 
+									Ensure updations, security and backup
+								</p>
+								<span><strong>WordPress, PHP</strong></span>
 							</article>
 						</div>
 					</div>
 					<footer>
-						<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
-						<a href="#contact" class="button large scrolly">Get in touch with me</a>
+						<p>Let's connect for more details!</p>
+						<a href="#contact" class="button large scrolly" style="background-color: #000000b8;">Get in touch with me</a>
 					</footer>
 				</div>
 			</article>
@@ -215,27 +323,28 @@
 				<div class="container medium">
 					<header>
 						<h2>Have me make stuff for you.</h2>
-						<p>Ornare nulla proin odio consequat sapien vestibulum ipsum.</p>
+						<p>Let me know your requirements</p>
 					</header>
 					<div class="row">
 						<div class="col-12">
 							<form method="post" action="#">
 								<div class="row">
 									<div class="col-6 col-12-small">
-										<input type="text" name="name" id="name" placeholder="Name" />
+										<input type="text" name="name" id="name" placeholder="Name" required/>
 									</div>
 									<div class="col-6 col-12-small">
-										<input type="text" name="email" id="email" placeholder="Email" />
+										<input type="text" name="email" id="email" placeholder="Email" required/>
 									</div>
 									<div class="col-12">
-										<input type="text" name="subject" id="subject" placeholder="Subject" />
+										<input type="text" name="subject" id="subject" placeholder="Subject" required/>
 									</div>
 									<div class="col-12">
-										<textarea name="message" id="message" placeholder="Message"></textarea>
+										<textarea name="message" id="message" placeholder="Message" required></textarea>
 									</div>
+								
 									<div class="col-12">
 										<ul class="actions">
-											<li><input type="submit" value="Send Message" /></li>
+											<li><input type="submit" value="Send Message" class="submit-btn" style="background-color: #0000001c;"/></li>
 											<li><input type="reset" value="Clear Form" class="alt" /></li>
 										</ul>
 									</div>
@@ -246,13 +355,14 @@
 							<hr />
 							<h3>Find me on ...</h3>
 							<ul class="social">
-								<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-								<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-								<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
+								<li><a href="https://x.com/imIhzan" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="https://www.linkedin.com/in/ihsan-at/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+
+								<!-- <li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
 								<li><a href="#" class="icon brands fa-google-plus"><span class="label">Google+</span></a></li>
 								<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+								<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li> -->
 								<!--
 								<li><a href="#" class="icon solid fa-rss"><span>RSS</span></a></li>
 								<li><a href="#" class="icon brands fa-instagram"><span>Instagram</span></a></li>
@@ -265,14 +375,14 @@
 								<li><a href="#" class="icon brands fa-vimeo"><span>Vimeo</span></a></li>
 								-->
 							</ul>
-							<hr />
+							<!-- <hr /> -->
 						</div>
 					</div>
-					<footer>
+					<!-- <footer>
 						<ul id="copyright">
 							<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 						</ul>
-					</footer>
+					</footer> -->
 				</div>
 			</article>
 
